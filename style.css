@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000000;
+}
+
+.cabecalho{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.800);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.215);
+    box-shadow: 0px 0px 8px black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    z-index: 10;
+    width: 100vw;
+}
+
+.favicon{
+    height: 20px;
+}
+
+.logo{
+    height: 40px;
+    padding: 25px 0px;
+    padding-left: 100px;
+}
+
+.sacola{
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px black ;
+    transition: ease-in-out 250ms;
+}
+
+.sacola:hover{
+    transform: scale(1.02);
+    box-shadow: 1.8px 1.5px 5px black ;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.menu .opcoes{
+    text-decoration: none;
+    color: #948d84;
+    font-size: 18px;
+    font-family: Cinzel;
+    font-weight: bold;
+    padding: 6px 8px;
+    border-radius: 20px;
+    transition:  ease-in-out 250ms;
+}
+
+.menu .opcoes:hover{
+    color: black;
+}
+
+/* PRIMEIRA SECTION */
+
+.video_inicio{
+    position: absolute;
+    background-size: cover;
+    z-index: -100;
+    opacity: 0.45;
+    width: 100vw;
+}
